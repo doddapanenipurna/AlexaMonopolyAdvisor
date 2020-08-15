@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.tamu.stmi.monopolysystem1.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+    <Button
+        android:id="@+id/mediAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#808B4513"
+        android:text="Mediterranean Avenue"
+        android:textSize="6sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/baltAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#808B4513"
+        android:text="Baltic Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/mediAve"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/orieAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#8037FDFC"
+        android:text="Oriental Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mediAve" />
+
+    <Button
+        android:id="@+id/vermAve"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#8037FDFC"
+        android:text="Vermont Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/orieAve"
+        app:layout_constraintTop_toBottomOf="@+id/mediAve" />
+
+    <Button
+        android:id="@+id/connAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#8037FDFC"
+        android:text="Connecticut Avenue"
+        android:textSize="6sp"
+        app:layout_constraintStart_toEndOf="@+id/vermAve"
+        app:layout_constraintTop_toBottomOf="@+id/baltAve" />
+
+    <Button
+        android:id="@+id/stchPla"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#80FF00FF"
+        android:text="St.Charles Place"
+        android:textSize="9sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orieAve" />
+
+    <Button
+        android:id="@+id/statAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#80FF00FF"
+        android:text="States Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/stchPla"
+        app:layout_constraintTop_toBottomOf="@+id/vermAve" />
+
+    <Button
+        android:id="@+id/virgAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#80FF00FF"
+        android:text="Virginia Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/statAve"
+        app:layout_constraintTop_toBottomOf="@+id/connAve" />
+
+    <Button
+        android:id="@+id/stjaPla"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffa500"
+        android:text="St. James Place"
+        android:textSize="9sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stchPla" />
+
+    <Button
+        android:id="@+id/tennAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffa500"
+        android:text="Tennessee Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/stjaPla"
+        app:layout_constraintTop_toBottomOf="@+id/stchPla" />
+
+    <Button
+        android:id="@+id/newyAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffa500"
+        android:text="New York Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/tennAve"
+        app:layout_constraintTop_toBottomOf="@+id/statAve" />
+
+    <Button
+        android:id="@+id/kentAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#80FF0000"
+        android:text="Kentucky Avenue"
+        android:textSize="9sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stjaPla" />
+
+    <Button
+        android:id="@+id/illiAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#80FF0000"
+        android:text="Illinois Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/indiAve"
+        app:layout_constraintTop_toBottomOf="@+id/newyAve" />
+
+    <Button
+        android:id="@+id/indiAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#80FF0000"
+        android:text="Indiana Avenue"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/kentAve"
+        app:layout_constraintTop_toBottomOf="@+id/tennAve" />
+
+    <Button
+        android:id="@+id/atlaAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#80ffff00"
+        android:text="Atlantic Avenue"
+        android:textSize="9sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kentAve" />
+
+    <Button
+        android:id="@+id/ventAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Ventnor Avenue"
+        android:background="#80ffff00"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/atlaAve"
+        app:layout_constraintTop_toBottomOf="@+id/indiAve" />
+
+    <Button
+        android:id="@+id/marvGar"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Marvin Gardens"
+        android:background="#80ffff00"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/ventAve"
+        app:layout_constraintTop_toBottomOf="@+id/illiAve" />
+
+    <Button
+        android:id="@+id/paciAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Pacific Avenue"
+        android:background="#80228B22"
+        android:textSize="9sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atlaAve" />
+
+    <Button
+        android:id="@+id/nortAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#80228B22"
+        android:text="North Carolina Avenue"
+        android:textSize="6sp"
+        app:layout_constraintStart_toEndOf="@+id/paciAve"
+        app:layout_constraintTop_toBottomOf="@+id/ventAve" />
+
+    <Button
+        android:id="@+id/pennAve"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Pennsylvania Avenue"
+        android:background="#80228B22"
+        android:textSize="6sp"
+        app:layout_constraintStart_toEndOf="@+id/nortAve"
+        app:layout_constraintTop_toBottomOf="@+id/marvGar" />
+
+    <Button
+        android:id="@+id/parkPla"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#800000FF"
+        android:text="Park Place"
+        android:textSize="7sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paciAve" />
+
+    <Button
+        android:id="@+id/boarWal"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#800000FF"
+        android:text="Boardwalk"
+        android:textSize="7sp"
+        app:layout_constraintStart_toEndOf="@+id/parkPla"
+        app:layout_constraintTop_toBottomOf="@+id/nortAve" />
+
+    <Button
+        android:id="@+id/readRail"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Reading Railroad"
+        android:textSize="7sp"
+        android:background="#80a29725"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parkPla" />
+
+    <Button
+        android:id="@+id/pennRail"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Penn Railroad"
+        android:background="#80a29725"
+        android:textSize="7sp"
+        app:layout_constraintStart_toEndOf="@+id/readRail"
+        app:layout_constraintTop_toBottomOf="@+id/boarWal" />
+
+    <Button
+        android:id="@+id/boarRail"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="57dp"
+        android:text="B/O Railroad"
+        android:background="#80a29725"
+        android:textSize="7sp"
+        app:layout_constraintStart_toEndOf="@+id/pennRail"
+        app:layout_constraintTop_toBottomOf="@+id/pennAve" />
+
+    <Button
+        android:id="@+id/shorLine"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Short Line"
+        android:textSize="7sp"
+        android:background="#80a29725"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readRail" />
+
+    <Button
+        android:id="@+id/elecCom"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="7sp"
+        android:text="Electric Compay"
+        android:background="#80829725"
+        app:layout_constraintStart_toEndOf="@+id/shorLine"
+        app:layout_constraintTop_toBottomOf="@+id/pennRail" />
+
+    <Button
+        android:id="@+id/watWork"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="7sp"
+        android:text="Water Work"
+        android:background="#80829725"
+        app:layout_constraintStart_toEndOf="@+id/elecCom"
+        app:layout_constraintTop_toBottomOf="@+id/boarRail" />
+
+</android.support.constraint.ConstraintLayout>
